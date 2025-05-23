@@ -138,9 +138,17 @@ ScriptsTab:AddButton({
 })
 
 ScriptsTab:AddButton({
-    Title = "Fling",
-    Description = "Elimina todos os jogadores",
-    Callback = function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+    Title = "Fling v1",
+    Description = "Joga os jogadores para fora do mapa",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
     end
 })
+
+ScriptsTab:AddButton({
+    Title = "Fling v3",
+    Description = "Mesma coisa joga os jogadores pra fora do mapa",
+    Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fling-gui-19581"))()
+    end
+})
+
