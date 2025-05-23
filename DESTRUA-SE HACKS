@@ -159,3 +159,12 @@ ScriptsTab:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkzombieX/Noclip-JinxScript/refs/heads/main/README.md"))()
     end
 })
+
+ScriptsTab:AddButton({
+    Title = "Fe Drops Items",
+    Description = "Ao ativar a função invisible você vai fica invisível",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkzombieX/Fe-Drop-Items/refs/heads/main/README.md"))()
+    end
+})
+
