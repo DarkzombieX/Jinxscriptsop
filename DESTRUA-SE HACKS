@@ -152,3 +152,10 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fling-gui-1
     end
 })
 
+ScriptsTab:AddButton({
+    Title = "Noclip",
+    Description = "Pode atravessar as paredes e tudo",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkzombieX/Noclip-JinxScript/refs/heads/main/README.md"))()
+    end
+})
