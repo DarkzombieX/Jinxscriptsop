@@ -136,3 +136,11 @@ ScriptsTab:AddButton({
        loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
     end
 })
+
+ScriptsTab:AddButton({
+    Title = "Fling",
+    Description = "Elimina todos os jogadores",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+    end
+})
